@@ -101,7 +101,7 @@ img{
 }
 @media only screen and (min-width: 1200px) {
     body{
-        padding-top: 22%; 
+        padding-top: 18%; 
     }
     .Qr-card{
         max-width: 20%;
