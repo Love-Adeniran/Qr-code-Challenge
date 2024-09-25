@@ -6,8 +6,11 @@
 }
 body{
     background-color: #d5e1ef;
-    margin: auto;
-    padding: 20% 0; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    min-height: 100vh;
 }
 .container{
     width: 100%;
@@ -53,11 +56,7 @@ img{
 }
 /* media queries*/
 @media only screen and (max-width: 600px) {
-    body{
-        background-color: #d5e1ef;
-        margin: auto;
-        padding: 10% 0; 
-    }
+
     .container{
         padding-top: 10%;
     }
@@ -68,9 +67,7 @@ img{
     }
 }
 @media only screen and (min-width: 600px) {
-    body{
-        padding: 2% 0; 
-    }
+
     .Qr-card{
         max-width: 60%;
         max-height: 80vh;
@@ -81,11 +78,7 @@ img{
      }
 }
 @media only screen and (min-width: 768px) {
-    body{
-        background-color: #d5e1ef;
-        margin: auto;
-        padding: 2% 0; 
-    }
+
     .Qr-card{
         margin: auto;
         max-width: 60%;
@@ -100,9 +93,7 @@ img{
      }
 }
 @media only screen and (min-width: 1200px) {
-    body{
-        padding-top: 18%; 
-    }
+  
     .container{
         padding-top: 0;
     }
