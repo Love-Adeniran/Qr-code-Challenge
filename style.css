@@ -19,7 +19,7 @@ body{
     max-width: 27%;
     max-height: 100%;
     border: 2px solid #fff;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 10px 14px 25px 14px;
     background-color: #fff;
 
@@ -101,21 +101,21 @@ img{
 }
 @media only screen and (min-width: 1200px) {
     body{
-        padding-top: 15%; 
+        padding-top: 18%; 
     }
     .container{
         padding-top: 0;
     }
     .Qr-card{
-        max-width: 23%;
-        max-height: 88vh;
+        max-width: 22%;
+        max-height: 100vh;
     }
 
      img{
         margin-left: 20%;
         max-width: 60%;
      }
-     .Qr-box{
+     /* .Qr-box{
 
-     }
+     } */
 }
