@@ -101,14 +101,14 @@ img{
 }
 @media only screen and (min-width: 1200px) {
     body{
-        padding-top: 12%; 
+        padding-top: 15%; 
     }
     .container{
         padding-top: 0;
     }
     .Qr-card{
-        max-width: 20%;
-        max-height: 85vh;
+        max-width: 23%;
+        max-height: 88vh;
     }
 
      img{
