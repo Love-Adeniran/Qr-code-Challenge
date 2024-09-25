@@ -7,7 +7,7 @@
 body{
     background-color: #d5e1ef;
     margin: auto;
-    padding: 15% 0; 
+    padding: 20% 0; 
 }
 .container{
     width: 100%;
@@ -16,11 +16,11 @@ body{
 }
 .Qr-card{
     margin: auto;
-    max-width: 30%;
+    max-width: 27%;
     max-height: 100%;
     border: 2px solid #fff;
-    border-radius: 10px;
-    padding: 10px 10px 25px 10px;
+    border-radius: 15px;
+    padding: 10px 14px 25px 14px;
     background-color: #fff;
 
 }
@@ -42,8 +42,9 @@ img{
 .heading{
     padding: 15px 0;
 }
-.Qr-text h4{
+.Qr-text h3{
     font-weight: bold;
+    font-size: medium;
 }
 .Qr-text small{
     font-size: smaller;
@@ -62,27 +63,17 @@ img{
     }
 
     .Qr-card{
-        margin: auto;
         max-width: 70%;
         max-height: 80vh;
-        border: 2px solid #fff;
-        border-radius: 10px;
-        background-color: #fff;
     }
 }
 @media only screen and (min-width: 600px) {
     body{
-        background-color: #d5e1ef;
-        margin: auto;
         padding: 2% 0; 
     }
     .Qr-card{
-        margin: auto;
         max-width: 60%;
         max-height: 80vh;
-        border: 2px solid #fff;
-        border-radius: 10px;
-        background-color: #fff;
     }
 
      img{
@@ -110,20 +101,18 @@ img{
 }
 @media only screen and (min-width: 1200px) {
     body{
-        background-color: #d5e1ef;
-        margin: auto;
-        padding: 8%; 
+        padding-top: 22%; 
     }
     .Qr-card{
-        margin: auto;
-        max-width: 24%;
+        max-width: 20%;
         max-height: 87vh;
-        border: 2px solid #fff;
-        border-radius: 10px;
-        background-color: #fff;
     }
 
      img{
-        margin-left: 15%;
+        margin-left: 20%;
+        max-width: 60%;
+     }
+     .Qr-box{
+
      }
 }
