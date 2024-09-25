@@ -51,7 +51,7 @@ img{
     color: rgb(150, 150, 150);
     padding: 10% 0;
 }
-/**/
+/* media queries*/
 @media only screen and (max-width: 600px) {
     body{
         background-color: #d5e1ef;
@@ -101,11 +101,14 @@ img{
 }
 @media only screen and (min-width: 1200px) {
     body{
-        padding-top: 18%; 
+        padding-top: 12%; 
+    }
+    .container{
+        padding-top: 0;
     }
     .Qr-card{
         max-width: 20%;
-        max-height: 87vh;
+        max-height: 85vh;
     }
 
      img{
